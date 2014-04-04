@@ -40,7 +40,7 @@ public class NodeMonitorTest {
 
     @Test
     public void testParseSequenceNumber() throws Exception {
-        assertEquals(154, classToTest.parseSequenceNumber("/ELECTION/pid-70878.0000000154"));
+        assertEquals(70878, classToTest.parseSequenceNumber("/ELECTION/pid-70878.0000000154"));
     }
 
     @Test
